@@ -14,6 +14,7 @@ This gem is collectiveidea's fork (http://github.com/collectiveidea/delayed_job)
   s.rdoc_options      = ["--main", "README.textile", "--inline-source", "--line-numbers"]
   s.require_paths     = ["lib"]
   s.test_files        = Dir.glob('test/**/*')
+  s.executables       = ['rake']
 
   s.add_development_dependency  'rake'
 end
