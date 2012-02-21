@@ -9,7 +9,7 @@ This gem is collectiveidea's fork (http://github.com/collectiveidea/delayed_job)
   s.email             = ['chris@collectiveidea.com', 'brandon@opensoul.org']
   s.extra_rdoc_files  = 'README.textile'
   s.files             = Dir.glob('{contrib,lib,recipes,spec}/**/*') +
-                        %w(MIT-LICENSE README.textile)
+                        %w(MIT-LICENSE README.rdoc)
   s.homepage          = 'http://github.com/collectiveidea/delayed_job'
   s.rdoc_options      = ["--main", "README.rdoc", "--inline-source", "--line-numbers"]
   s.require_paths     = ["lib"]
