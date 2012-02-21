@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
 
 This gem is collectiveidea's fork (http://github.com/collectiveidea/delayed_job)."
   s.email             = ['chris@collectiveidea.com', 'brandon@opensoul.org']
-  s.extra_rdoc_files  = 'README.textile'
+  s.extra_rdoc_files  = 'README.rdoc'
   s.files             = Dir.glob('{contrib,lib,recipes,spec}/**/*') +
                         %w(MIT-LICENSE README.rdoc)
   s.homepage          = 'http://github.com/collectiveidea/delayed_job'
